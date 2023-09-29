@@ -70,7 +70,7 @@ void ATM::AddSum()
 
 				if (newArr[i] %10!=0|| newArr[i] == 0)
 				{
-					cout << "Value should a round number. Try again." << endl;
+					cout << "Value should be a round number. Try again." << endl;
 				}
 				else
 				{
@@ -94,7 +94,7 @@ void ATM::WithdrawalSum()
 
 		if (u_Withdr % 10 != 0)
 		{
-			cout << "Value should a round number. Try again." << endl;
+			cout << "Value should be a round number. Try again." << endl;
 		}
 		else if(u_Withdr < minWithdraw || u_Withdr > maxWithdraw)
 		{
